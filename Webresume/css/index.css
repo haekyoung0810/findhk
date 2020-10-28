@@ -1,0 +1,736 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+/* font-family: 'Poppins', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+/* font-family: 'Noto Sans KR', sans-serif; */
+
+*{
+	margin:0;
+	padding:0;
+  box-sizing: border-box;
+  font-family:  'Poppins', sans-serif;
+}
+
+
+
+
+
+/* ------배경이미지----- */
+.custom-shape-divider-bottom-1600786365 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1600786365 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 172px;
+}
+
+.custom-shape-divider-bottom-1600786365 .shape-fill {
+    fill: #DA81F5;
+}
+
+
+
+
+
+
+
+.banner{
+    position: relative;
+    background-color: #111;
+    min-height: 100vh;
+    width: 100%;
+    padding:100px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+.banner h2{
+    font-size: 3em;
+    color:#fff;
+    font-weight: 500;
+    line-height: 1.5em;
+    height: 18vh;
+}
+
+
+.banner h2 span{
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+.banner h3{
+    font-size: 1.5em;
+    color:#fff;
+    font-weight: 500;
+    line-height: 1.5em;;
+}
+
+
+.btn{
+    position: relative;
+    background: #2EFEC8;
+    display: inline-block;
+    color: #111;
+    margin-top: 20px;
+    padding:10px 30px;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-weight:600;
+}
+
+header{
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    padding:40px 100px;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.5s;
+}
+
+
+header.sticky{
+    background:#fff ;
+    padding:20px 100px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+}
+
+
+
+header .logo{
+    color:#fff;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 700;
+    letter-spacing: 2px;
+
+}
+
+header.sticky .logo{
+    color:#111;
+}
+
+
+
+
+
+
+header ul{
+    position: relative;
+    display: flex;
+}
+
+header ul li{
+    position: relative;
+    list-style: none;
+
+}
+
+header ul li a{
+    position: relative;
+    display: inline-block;
+    margin:0 15px;
+    color:#fff;
+    text-decoration: none;
+}
+
+
+header.sticky ul li a{
+    color:#111;
+}
+
+
+
+
+/* ---------About---------- */
+
+.about{
+    margin: 0 auto;
+    width: 100%;
+}
+
+
+
+.heading{
+    margin: 0 auto;
+    padding:5% 0;
+    width: 70%;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #111;
+}
+
+
+.heading h2{
+    font-weight: 600;
+    font-size: 3rem;
+  }
+
+
+
+.content{
+    width: 70%;
+    margin: 0 auto;
+     display: flex;
+    justify-content: space-between;
+    padding-bottom: 10%;
+}
+
+.contextBx{
+    font-family:'Noto Sans KR';
+    font-size: 1.1rem;
+    line-height: 2rem;
+    width: 70%;
+    margin-left: 6%;
+}
+
+
+.contextBx h3{
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+
+.w50{
+    padding-left: 50px;
+    min-width: 50%;
+
+
+}
+
+.img{
+    max-width: 100%;
+    transform: scale(0);
+    opacity: 0;
+}
+
+
+.imgAny{
+  transform: scale(1);
+  opacity: 1;
+  transition: all 0.5s ease-in-out;
+}
+
+
+
+
+/* --------Resume---------- */
+
+.resume{
+    background-color: #111;
+}
+
+
+.heading.white{
+    color: #fff;
+}
+
+
+
+.resume .heading p{
+  font-family: 'Noto Sans KR';
+  font-size: 1.2rem;
+}
+
+
+
+
+.heading p{
+    padding-top: 5%;
+}
+
+
+
+.resume .content{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+
+.resumeBx{
+  font-family:'Noto Sans KR';
+  font-size: 1.1rem;
+  line-height: 2.2rem;
+    padding: 40px 40px;
+    background: #222;
+    color: #fff;
+    max-width: 340px;
+    margin: 20px;
+    text-align: center;
+    transition: 0.5s;
+}
+
+
+.resume .content .Bx001{
+  padding: 40px 70px;
+}
+
+.resume .content .Bx003,
+.resume .content .Bx004
+{
+    padding: 40px 85px;
+}
+
+
+.resumeBx p{
+  font-family: 'Noto Sans KR';
+  padding: 1.5% 0;
+}
+
+
+.resumeBx:hover{
+    background:  #2EFEC8;
+}
+
+.resumeBx:hover>p{
+  color:#333;
+}
+
+
+.resumeBx img{
+    max-width: 80px;
+    filter: invert(1);
+}
+
+.resumeBx h2{
+  color:#D358F7;
+     margin-bottom: 7%;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+/* -------------work------------ */
+
+
+.work{
+  position: relative;
+  height: 88vh;
+}
+
+
+.work .content{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 8%;
+}
+
+.work .heading{
+    padding-bottom: 1%;
+}
+
+
+.work .heading p{
+  font-family: 'Noto Sans KR';
+  font-size: 1.2rem;
+} 
+
+
+
+.work .content .workBx{
+    width: 33.333%;
+    padding-right: 2%;
+
+
+}
+
+.work .content .workBx img{
+    max-width: 100%;
+    box-shadow: 0 0 3px 3px #eee; 
+}
+
+
+.work .content .workBx img:hover{
+  transform: scale(1.3);
+  transition: all 0.4s ease-in-out;
+}
+
+
+/* 팝업 */
+
+
+.work .popupBX01{
+  position: fixed;
+  left:-50%;
+  top:0%;
+  visibility: hidden;
+  overflow: hidden;
+  background-color:#E6E6E6;
+  opacity: 0;
+  font-family: 'Noto Sans KR', sans-serif;
+  width: 40vw;
+  height: 60vh;
+  align-items: center;
+  padding:2rem 1.5rem;
+  transition: 0.74s ease-in-out;
+  
+}
+
+
+
+.work .popupBX01:target{
+  visibility: visible;
+  opacity: 1;
+  position: fixed;
+  left: 50%;
+  top:50%;
+  width: 40vw;
+  height: 75vh;
+  transform: translate(-50%,-50%);
+  transition: 0.74s ease-in-out;
+  z-index: 1000;
+}
+
+
+
+
+
+
+
+.work .popup-container01{
+  transform: rotateX(-50%);
+  align-items: center;
+  margin:0.3rem 0;
+  padding:1.5rem 1.5rem;
+  width: 100%;
+  height: 100%;
+}
+
+
+
+
+.work .popup-container01 h2{
+  font-size: 1.5rem;
+  color: #444;
+  font-family:  'Noto Sans KR', sans-serif;
+  padding:0.3rem 1rem;
+  margin-top: 1.3rem;
+  margin-left: 2rem;
+}
+
+
+.work .popup-container01 h3{
+  font-size: 1rem;
+  color: #BDBDBD;
+  font-family:  'Noto Sans KR', sans-serif;
+  padding:0 1rem;
+  margin: 0 2rem;
+}
+
+
+
+.popupBX01 .close{
+  cursor: pointer;
+  vertical-align:middle;
+    margin:0 auto;
+  text-decoration: none;
+  position: absolute;
+  color:#424242;
+  right: 2%;
+  padding:0.2rem 1rem;
+  top:2%;
+  font-size: 1.5vw;
+  font-weight: 600;
+  font-family:'Noto Sans KR', sans-serif;
+}
+
+
+/* 화살표 공통사항 */
+.popupBX01 .arrow{
+  cursor: pointer;
+  position: absolute;
+  top:20rem;
+  width: 61px;
+  height: 61px;
+}
+
+
+
+
+
+
+.popup-text01{
+  width: 100%;
+  font-size: 0.9rem;
+  color: #424242;
+  padding-bottom: 2%;
+  padding:0 1rem;
+  margin: 0.4rem 2rem;
+
+}
+
+
+.popupBtn>a{
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  color: #111;
+}
+
+
+
+
+
+.popupBtn
+{
+  width: 22%;
+  height: 5%;
+  background-color: aqua;
+  text-align: center;
+  line-height: 30%;
+  margin-left: 2.9rem;
+  margin-top: 1rem;
+  font-size: 1rem;
+  font-weight: 800;
+  padding:1.3rem;
+
+
+}
+
+
+
+
+/*-------- contact------ */
+
+.contact{
+    position: relative;
+    background: #111;
+    padding:4%;
+}
+
+.contact .heading
+{
+    padding:2%;
+}
+
+.contact .heading p{
+  font-family: 'Noto Sans KR';
+  font-size: 1.2rem;
+
+}
+
+.contact .content{
+padding:12%;
+height: auto;   
+
+}
+
+
+
+.text {
+  display: flex;
+  padding: 1% 0;
+  margin: 0;
+}
+
+
+
+.bussinesscard {
+  height: 35%;
+  width: 25%;
+  overflow: hidden;
+  box-shadow: 0px 0px 43px -10px black;
+  position: absolute;
+  left: 50%;
+  top: 60%;
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.bussinesscard .flip {
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.bussinesscard .front {
+  z-index: 11;
+  width: 100%;
+  position: absolute;
+  height: 100%;
+  background: #fff;
+  box-shadow: 0px 0px 33px -1px rgba(0, 0, 0, 0.45);
+  -moz-transform: scale(1, 1);
+  -ms-transform: scale(1, 1);
+  -webkit-transform: scale(1, 1);
+  transform: scale(1, 1);
+  -moz-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+.bussinesscard .front .top {
+  height: 50%;
+  background: #2a2b39;
+}
+.bussinesscard .front .top:after {
+  position: absolute;
+  content: '';
+  pointer-events: none;
+}
+.bussinesscard .front .top:after {
+  left: 50%;
+  width: 2em;
+  height: 2em;
+  -moz-transform: translateX(-50%) rotate(45deg);
+  -ms-transform: translateX(-50%) rotate(45deg);
+  -webkit-transform: translateX(-50%) rotate(45deg);
+  transform: translateX(-50%) rotate(45deg);
+  bottom: 9em;
+  z-index: 10;
+  background: inherit;
+}
+.bussinesscard .front .top .logo {
+  display: inline-block;
+  background: url(../img/face22.png)no-repeat center/cover;
+  color: #fff;
+  z-index: 11;
+  padding: 2vw;
+  border: 8px solid #fff;
+  position: relative;
+  pointer-events: none;
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  left: 50%;
+  margin-top: .3em;
+  font-size: 4em;
+}
+
+
+.bussinesscard .front .nametroduction {
+  -moz-transform: translateY(0);
+  -ms-transform: translateY(0);
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
+  z-index: 8;
+}
+.bussinesscard .front .name {
+  color: #2a2b39;
+  font-weight: 400;
+  font-size: 2.5em;
+  text-align: center;
+  position: relative;
+  margin-bottom: .3em;
+}
+
+
+.bussinesscard .front .introduction {
+  text-align: center;
+  color: #2a2b39;
+  font-style: italic;
+    margin-bottom: -1em;
+}
+
+.bussinesscard .front .content{
+  color: #2D3244;
+  font-size: 1em;
+  width: 1em;
+  display: inline-block;
+
+}
+
+.contactInfoBx{
+  width: 20vw;
+  height: 100%;
+}
+
+
+.contactInfoBx .text p{
+  margin-left: 1em;
+}
+
+
+.bussinesscard .back {
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  backface-visibility: hidden;
+  position: absolute;
+
+}
+
+
+/* HOVER ANIMATIONS */
+.front .top .logo, .front .top, .front .top:after, .front .nametroduction, .front .contact {
+  -moz-transition: 0.3s all ease-in-out;
+  -o-transition: 0.3s all ease-in-out;
+  -webkit-transition: 0.36s all ease-in-out;
+  transition: 0.3s all ease-in-out;
+}
+
+.flip:hover .front .top .logo {
+  margin-top: .28em;
+  font-size: 1.3em;
+  border: 3px solid #fff;
+  margin-left: .15em;
+  -moz-transform: translateX(0);
+  -ms-transform: translateX(0);
+  -webkit-transform: translateX(0);
+  transform: translateX(0);
+  left: 0;
+}
+
+.flip:hover .front .top {
+  height: 15%;
+}
+.flip:hover .front .top:after {
+  width: 1.5em;
+  height: 1.5em;
+  bottom: 16.3em;
+}
+
+.flip:hover .front .nametroduction {
+
+  opacity: 0;
+}
+
+.flip:hover .front .contactInfoBx {
+  -moz-transform: translateY(-160%);
+  -ms-transform: translateY(-160%);
+  -webkit-transform: translateY(-160%);
+  transform: translateY(-160%);
+}
+
+
+
+.contactInfoBx .icon{
+    min-width: 40px;
+    padding-top:2%;
+    margin-left: 35px;
+    float: left;
+}
+
+
+/*----------푸터-------------*/
+
+.copyright{
+    background: #000;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}

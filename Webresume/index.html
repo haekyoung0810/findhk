@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>FindHaekyoung</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="css/jquery.bxslider.css">
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">PortFolio</a>
+        <div class="toggle"></div>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#" onclick='moveMenu(0)'>About</a></li>
+            <li><a href="#" onclick='moveMenu(1)'>Resume</a></li>
+            <li><a href="#" onclick='moveMenu(2)'>Work</a></li>
+            <li><a href="#" onclick='moveMenu(3)'>Contact</a></li>
+        </ul>
+    </header>
+    <section class="banner">
+        <div class="textBx">
+            <h2>Hello, I'm<br><span class="typed"><!--  Hae kyoung KANG. --></span></h2>
+<!--             <h3>I'm a Front End Web Developer.</h3> -->
+
+            <a href="#" class="btn" onclick='moveMenu(0)'>About Me</a>
+        </div>
+
+    <!-- 배경이미지 -->
+	<div class="custom-shape-divider-bottom-1600786365">
+        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+            <path d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" opacity=".25" class="shape-fill"></path>
+            <path d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z" opacity=".5" class="shape-fill"></path>
+            <path d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z" class="shape-fill"></path>
+        </svg>
+     </div>
+    </section>
+    <section class="about" id="menu00"> <!--콘텐츠 시작-->
+        <div class="heading">
+            <h2>About Me</h2>
+        </div>
+        <div class="content">
+            <div class="contextBx w50">
+                <h3>I'm a Front End Web Developer.</h3>
+                <br>
+                <p> 안녕하세요! 프론트엔드 개발자를 꿈꾸고 있는 강해경입니다. 다년간 마케팅 기획과 웹 기획자로 근무를 하며
+                    개발의 언저리에서 머물다가 이젠 개발을 '직접'하는 사람으로 거듭나려고 합니다.<br><br>저는 UI 효과, 애니메이션이나 직권적이고
+                    역동적인 사용자 경험 기반 웹을 만드는 데 열정을 가지고 있습니다. 또한 웹 뿐만 아니라 후에 앱이나 다른 분야도
+                    도전하기 위해 항상 공부하고 노력하고 있습니다. 
+                    <br>
+                    <br>
+               </p>
+            </div>
+            <div class="w50">
+                <img src="img/face.png" alt="얼굴이모지" class="img">
+            </div>
+        </div>
+    </section>
+    <section class="resume" id="menu01">
+        <div class="heading white">
+            <h2>Resume</h2>
+            <p>학력, 경력, 스킬 및 언어 등을 포함한 이력서 입니다.</p>
+        </div>
+        <div class="content">
+            <div class="resumeBx Bx001">
+                <img src="img/academic.png" alt="학력사항 아이콘">
+                <h2>Academic background</h2>
+                <p> 2006.03~2009.02</p>
+                <p> 부산진여자고등학교 졸업</p>
+                <p> 2009.03~2013.08</p>
+                <p> (부산) 경성대학교 졸업</p>
+            </div>
+            <div class="resumeBx">
+                <img src="img/career.png" alt="경력사항 아이콘">
+                <h2>Career</h2>
+                <p>유스피부과의원</p>
+                <p>2018.08~2019.09 마케팅팀 대리</p>
+                <p>금솔커뮤니케이션</p>
+                <p>2015.12~2018.05 IMC전략팀 대리</p>
+                <p>구로피엔피(주)</p>
+                <p>2013.08~2015.03 홍보팀 사원</p>
+            </div>
+            <div class="resumeBx Bx003">
+                <img src="img/programming-language.png
+                " alt=" 언어 아이콘">
+                <h2>Language & Enviroment</h2>
+                <p>HTML ■ ■ □</p>
+                <p>CSS ■ ■ □</p>
+                <p>JAVA script ■ □ □</p>
+                <p>JQuery ■ ■ □</p>
+                <p>SublimText ■ ■ □</p>
+                <p>VS code ■ ■ □</p>
+            </div>
+            <div class="resumeBx Bx004">
+                <img src="img/wireframe.png" alt="스킬 아이콘">
+                <h2>Skills</h2>
+                <p>UI Design ■ ■ □</p>
+                <p>Photoshop ■ ■ □</p>
+                <p>Illustrator ■ ■ □</p>
+                <p>PPT & Excel ■ ■ □</p>
+                <p>Adobe XD ■ □ □</p>
+            </div>
+            <div class="resumeBx">
+                <img src="img/online-course.png" alt="교육사항 아이콘">
+                <h2>Education course & Qulification</h2>
+                <p>2020.05~2020.10</p>
+                <p>UX/UI Web Design & Publisher 수료</p>
+                <p>2019.09</p>
+                <p>OPIC IH</p>
+                <p></p>
+            </div>
+            <div class="resumeBx">
+                <img src="img/intern.png" alt="인턴쉽 아이콘">
+                <h2>Internship</h2>
+                <p>텐던시(Tendency)</p>
+                <p>2015.08~2015.11</p>
+                <p>레인보우라이트 웹 컨텐츠 기획 지원</p>
+                <p>레인보우라이트 브랜드 SNS 컨텐츠 제작 및 기획</p>
+            </div>
+        </div>
+    </section>
+    <section class="work" id="menu02">
+        <div class="heading">
+            <h2>Work</h2>
+            <p>웹 관련 프로젝트 및 포트폴리오 입니다.</p>
+        </div>
+        <div class="content">
+            <div class="workBx">
+                <a href="#popup1"><img src="img/product1.png" alt="박카스 홈페이지 리뉴얼"></a>
+            </div>
+            <div class="workBx">
+                <a href="#popup2"><img src="img/product2.png" alt="대림미술관 홈페이지 리뉴얼"></a>
+            </div>
+            <div class="workBx">
+                <a href="#popup3"><img src="img/product3.jpg" alt="마케팅 기획 포트폴리오"></a>
+            </div>
+
+                <!-- 팝업창 -->
+                <div class="popupBX01" id="popup1">
+                    <div class="popup-container01">
+                        <ul class="popupImgBX">
+                            <li><img src="img/popup01img1.png" alt="박카스 브랜드 홈페이지1"></li>
+                            <li><img src="img/popup01img2.png" alt="박카스 브랜드 홈페이지2"></li>
+                            <li><img src="img/popup01img3.png" alt="박카스 브랜드 홈페이지3"></li>
+                            <li><img src="img/popup01img4.png" alt="박카스 브랜드 홈페이지4"></li>
+                        </ul>                        
+                        <a class="close" href="#menu02">×</a>
+                        <div class="previous arrow"></div>
+                        <div class="next arrow"></div>
+                        <h2>박카스 브랜드 홈페이지 리뉴얼</h2>
+                        <h3>UXUI Website renewal project</h3>
+                        <div class="popup-text01">
+                            <p>기존 박카스 브랜드 홈페이지를 제품과 타겟을 고려한 홈페이지로 리뉴얼한 팀 프로젝트</p>                            
+                            <p>제작기간 : 3주~4주</p>
+                            <p>기여도 : 기획 80%, 디자인 50%, 코딩 100%</p>
+                        </div>
+                        <div class="popupBtn Btn01"><a href="http://hkzeze.dothome.co.kr/bacchus/html">VIEW SITE</a></div>
+                    </div>
+                </div>
+                <div class="popupBX01" id="popup2">
+                    <div class="popup-container01">
+                        <ul class="popupImgBX">
+                            <li><img src="img/popup02img1.png" alt="대림 브랜드 홈페이지1"></li>
+                            <li><img src="img/popup02img2.png" alt="대림 브랜드 홈페이지2"></li>
+                            <li><img src="img/popup02img3.png" alt="대림 브랜드 홈페이지3"></li>
+                            <li><img src="img/popup02img4.png" alt="대림 브랜드 홈페이지4"></li>
+                        </ul>                        
+                        <a class="close" href="#menu02">×</a>
+                        <div class="previous arrow"></div>
+                        <div class="next arrow"></div>                        
+                        <h2>대림 브랜드 홈페이지 리뉴얼</h2>
+                        <h3>UXUI Website renewal project</h3>
+                        <div class="popup-text01">
+                            <p>기존 대림 미술관 홈페이지를 최근 전시회를 기반으로 한 홈페이지로 리뉴얼한 팀 프로젝트</p>                            
+                            <p>제작기간 : 4주~5주</p>
+                            <p>기여도 : 기획 70%, 디자인 50%, 코딩 100%</p>
+                        </div>
+                        <div class="popupBtn Btn01"><a href="http://hkzeze.dothome.co.kr/darim/html">VIEW SITE</a></div>
+                    </div>
+                </div>
+              <div class="popupBX01" id="popup3">
+                    <div class="popup-container01">
+                        <ul class="popupImgBX">
+                            <li><img src="img/popup03img1-1.png" alt="박카스 브랜드 홈페이지1"></li>
+                            <li><img src="img/popup03img1-2.png" alt="박카스 브랜드 홈페이지2"></li>
+                            <li><img src="img/popup03img1-3.png" alt="박카스 브랜드 홈페이지3"></li>
+                            <li><img src="img/popup03img1.png" alt="박카스 브랜드 홈페이지4"></li>
+                        </ul>                        
+                        <a class="close" href="#menu02">×</a>
+                        <div class="previous arrow"></div>
+                        <div class="next arrow"></div>                     
+                        <h2 class="popup3Title">유스클리닉 홈페이지 상세페이지 기획, 기타 SNS 콘텐츠 기획</h2>
+                        <h3>Website page renewal project & SNS contents planning</h3>
+                        <div class="popup-text01">
+                            <p>콘텐츠 및 웹 기획</p>
+                            <p>자사 홈페이지 유지, 보수 관리</p>
+                            <p>상세 페이지 기획 및 수정</p>
+                            <p>인플루언서 및 콘텐츠 관리, 제작</p>
+                        </div>
+                        <div class="popupBtn Btn01"><a href="http://dreamsclinic.com/landing/5g_lifting.asp">VIEW SITE</a></div>
+                    </div>
+                </div>                
+        </div>
+    </section>
+    <section class="contact" id="menu03">
+        <div class="heading white">
+            <h2>Contact Me</h2>
+            <p>궁금하신 사항이나 문의사항이 있다면 아래 연락처를 참고해 주세요!</p>
+        </div>
+
+        <div class="content"> 
+            <aside class="bussinesscard">
+                <div class="flip">
+                    <div class="front">             
+                        <div class="top">               
+                            <div class="logo"></div>                
+                        </div>
+                        <div class="nametroduction">
+                            <div class="name">Contact Info</div>
+                            <div class="introduction">hae kyoung KANG</div>
+                        </div>  
+
+                     <div class="content">             
+                        <div class="contactInfoBx">
+                            <div class="icon">
+                                <i class="fa fa-map-marker"></i>
+                            </div>
+                            <div class="text">
+                                <h3>Address</h3>
+                                <p>서울시 관악구 봉천동 1684-21</p>
+                            </div>
+                        </div>    
+                        <div class="contactInfoBx">
+                            <div class="icon">
+                               <i class="fa fa-phone"></i>
+                            </div>
+                            <div class="text">
+                               <h3>Phone</h3>
+                                <p>010-3908-2489</p>
+                            </div>
+                        </div>    
+                        <div class="contactInfoBx">                 
+                            <div class="icon">
+                              <i class="fa fa-envelope-o"></i>
+                            </div>
+                            <div class="text">
+                               <h3>Email</h3>
+                               <p>hkzeze@gmail.com</p>
+                            </div>
+                        </div>  
+                    </div>     
+               </div>                      
+                    <div class="back"></div> <!--FIXES FONT RENDERING -->
+            </aside>
+        </div>           
+    </section>
+    <div class="copyright">
+        <p>Copyright ⓒ 2020 hae kyoung KANG. All Right Reserved.</p>
+    </div>
+    <script src="../js/jquery-3.5.1.js"></script>
+    <script src="../js/jquery-ui.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/1.1.1/typed.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <script src="jquery-1.7.2.js"></script>
+    <script src="jquery-ui-1.10.4.min.js"></script>
+    <script src="jquery.bxslider.min.js"></script>
+    <script src="js/index.js"></script>
+
+</body>
+</html>
