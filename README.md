@@ -2,7 +2,7 @@
   - This is my Web Resume.
   
 ## Index
-  ⭕ Introduce my self   
+  ⭕ Introduce myself   
   ⭕ career  
   ⭕ portfolio  
   ⭕ contact
