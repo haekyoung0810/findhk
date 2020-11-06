@@ -3,7 +3,7 @@
   
 ## Index
   ⭕ Introduce myself   
-  ⭕ language & skill 
+  ⭕ language & skill  
   ⭕ portfolio  
   ⭕ contact
   
